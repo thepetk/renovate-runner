@@ -4,6 +4,7 @@ module.exports = {
       extends: ['config:base'],
     },
     repositories: [
+        'platform-engineering-org/self-hosted-renovate',
         'platform-engineering-org/arcaflow-engine'
     ],
 };
