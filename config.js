@@ -3,9 +3,11 @@ module.exports = {
     onboardingConfig: {
       extends: [
         'config:base',
-        ":dependencyDashboard"
+        ":dependencyDashboard",
+        "group:allNonMajor"
       ],
     },
+    "automerge": false,
     repositories: [
         'platform-engineering-org/self-hosted-renovate',
         'platform-engineering-org/arcaflow-engine'
