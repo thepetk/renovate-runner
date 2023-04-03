@@ -1,7 +1,10 @@
 module.exports = {
     platform: 'github',
     onboardingConfig: {
-      extends: ['config:base'],
+      extends: [
+        'config:base',
+        ":dependencyDashboard"
+      ],
     },
     repositories: [
         'platform-engineering-org/self-hosted-renovate',
