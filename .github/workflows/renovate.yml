@@ -9,9 +9,9 @@ jobs:
   renovate:
     runs-on: ubuntu-latest
 
-    services:
-      docker:
-        image: docker:24.0.2-dind
+    # services:
+    #   docker:
+    #     image: docker:24.0.2-dind
 
     steps:
       - name: Checkout
@@ -19,5 +19,5 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v38.1.8
         with:
-          renovate-version: 35.0.0
+          renovate-version: 35.142.0
           token: ${{ secrets.RENOVATE_TOKEN }}
