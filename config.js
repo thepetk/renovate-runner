@@ -2,6 +2,11 @@ module.exports = {
     platform: 'github',
     repositories: [
         'platform-engineering-org/renovate-runner',
-        'arcalot/arcaflow-plugin-aws-ec2-control'
+        'platform-engineering-org/bootstrap',
+        'platform-engineering-org/helper',
+        'platform-engineering-org/gitlab-runners',
+        'platform-engineering-org/platform-engineering-org.github.io',
+        'arcalot/arcaflow-plugin-aws-ec2-control',
+        'crc-org/crc-cloud'
     ],
 };
