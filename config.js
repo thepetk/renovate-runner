@@ -9,4 +9,7 @@ module.exports = {
         'arcalot/arcaflow-plugin-aws-ec2-control',
         'crc-org/crc-cloud'
     ],
+    "vulnerabilityAlerts": {
+      "labels": ["security"]
+    }
 };
