@@ -18,8 +18,8 @@ module.exports = {
         'platform-engineering-org/platform-engineering-org.github.io',
         'platform-engineering-org/gitlab-configuration',
         'arcalot/arcaflow-plugin-aws-ec2-control',
-        // 'arcalot/arcaflow-plugin-example',
-        // 'arcalot/arcaflow-plugin-template-python',
+        'arcalot/arcaflow-plugin-example',
+        'arcalot/arcaflow-plugin-template-python',
         'crc-org/crc-cloud'
     ]
 };
