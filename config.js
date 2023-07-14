@@ -2,12 +2,7 @@ module.exports = {
     platform: 'github',
     onboardingConfig: {
         "extends": [
-            "config:base",
-            ":enablePreCommit",
-            "group:allNonMajor",
-            "regexManagers:dockerfileVersions",
-            "schedule:weekly",
-            "docker:pinDigests"
+            "github>platform-engineering-org/.github"
         ]
     },
     repositories: [
