@@ -6,6 +6,7 @@ module.exports = {
         ]
     },
     repositories: [
+        'platform-engineering-org/.github',
         'platform-engineering-org/renovate-runner',
         'platform-engineering-org/bootstrap',
         'platform-engineering-org/helper',
