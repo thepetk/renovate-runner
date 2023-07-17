@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.5.3
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v38.1.11
+        uses: renovatebot/github-action@v38.1.13
         with:
           renovate-version: 35.142.0
           configurationFile: config.js
