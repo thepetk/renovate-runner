@@ -5,6 +5,18 @@ module.exports = {
             "github>platform-engineering-org/.github"
         ]
     },
+    hostRules: [
+      {
+        matchHost: 'github.com',
+        token: process.env.GITHUB_COM_TOKEN,
+      },
+      {
+        "hostType": "docker",
+        "matchHost": "docker.io",
+        "username": process.env.DOCKER_AUTH_USERNAME,
+        "password": process.env.DOCKER_AUTH_TOKEN
+      }
+    ],
     repositories: [
         'platform-engineering-org/.github',
         'platform-engineering-org/renovate-runner',
