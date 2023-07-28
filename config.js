@@ -38,6 +38,7 @@ module.exports = {
     "arcalot/arcaflow-plugin-minio",
     "arcalot/arcaflow-plugin-iperf3",
     "arcalot/arcaflow-plugin-smallfile",
-    "crc-org/crc-cloud"
+    "crc-org/crc-cloud",
+    "thepetk/registry"
   ]
 };
