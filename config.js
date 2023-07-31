@@ -39,6 +39,7 @@ module.exports = {
     "arcalot/arcaflow-plugin-iperf3",
     "arcalot/arcaflow-plugin-smallfile",
     "crc-org/crc-cloud",
-    "thepetk/registry"
+    "thepetk/registry",
+    "Zlopez/anitya-renovate-poc.git"
   ]
 };
