@@ -38,6 +38,7 @@ module.exports = {
     "arcalot/arcaflow-plugin-minio",
     "arcalot/arcaflow-plugin-iperf3",
     "arcalot/arcaflow-plugin-smallfile",
+    "arcalot/arcaflow-plugin-uperf",
     "crc-org/crc-cloud",
     "Zlopez/anitya-renovate-poc"
   ]
