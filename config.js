@@ -8,10 +8,6 @@ module.exports = {
   },
   hostRules: [
     {
-      matchHost: "github.com",
-      token: process.env.GITHUB_COM_TOKEN,
-    },
-    {
       "hostType": "docker",
       "matchHost": "docker.io",
       "username": process.env.DOCKER_AUTH_USERNAME,
