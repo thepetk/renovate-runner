@@ -10,8 +10,8 @@ module.exports = {
     {
       "hostType": "docker",
       "matchHost": "docker.io",
-      "username": process.env.DOCKER_AUTH_USERNAME,
-      "password": process.env.DOCKER_AUTH_TOKEN
+      "username": process.env.DOCKER_HUB_USERNAME,
+      "password": process.env.DOCKER_HUB_TOKEN
     }
   ],
   repositories: [
