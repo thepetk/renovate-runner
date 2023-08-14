@@ -36,7 +36,6 @@ module.exports = {
     "arcalot/arcaflow-plugin-smallfile",
     "arcalot/arcaflow-plugin-uperf",
     "crc-org/crc-cloud",
-    "Zlopez/anitya-renovate-poc",
     "platform-engineering-org/renovate-test"
   ]
 };
