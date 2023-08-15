@@ -35,6 +35,13 @@ module.exports = {
     "arcalot/arcaflow-plugin-iperf3",
     "arcalot/arcaflow-plugin-smallfile",
     "arcalot/arcaflow-plugin-uperf",
+    "arcalot/arcaflow-lib-kubernetes-python",
+    "arcalot/arcaflow-plugin-sdk-go",
+    "arcalot/.github",
+    "arcalot/arcaflow-engine",
+    "arcalot/arcaflow-plugin-kubeconfig",
+    "arcalot/arcaflow-plugin-sysbench",
+    "arcalot/arcaflow-plugin-fio",
     "crc-org/crc-cloud",
     "platform-engineering-org/renovate-test"
   ]
