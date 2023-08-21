@@ -15,7 +15,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v39.0.1
         with:
-          renovate-version: 36.42.4
+          renovate-version: 36.52.2
           configurationFile: config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
