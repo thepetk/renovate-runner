@@ -5,8 +5,13 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["^.github/workflows/renovate.yml$"],
-      "matchStrings": ["\\s*renovate-version:\\s*(?<currentValue>[a-z0-9.-]+)"],
+      "customType": "regex",
+      "fileMatch": [
+        "^.github/workflows/renovate.yml$"
+      ],
+      "matchStrings": [
+        "\\s*renovate-version:\\s*(?<currentValue>[a-z0-9.-]+)"
+      ],
       "depNameTemplate": "renovate",
       "datasourceTemplate": "npm"
     }
