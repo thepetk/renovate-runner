@@ -43,6 +43,7 @@ module.exports = {
     "arcalot/arcaflow-plugin-sysbench",
     "arcalot/arcaflow-plugin-fio",
     "crc-org/crc-cloud",
-    "platform-engineering-org/renovate-test"
+    "platform-engineering-org/renovate-test",
+    "platform-engineering-org/renovate-gitea-test"
   ]
 };
