@@ -15,13 +15,6 @@ module.exports = {
     }
   ],
   repositories: [
-    "platform-engineering-org/.github",
-    "platform-engineering-org/renovate-runner",
-    "platform-engineering-org/bootstrap",
-    "platform-engineering-org/helper",
-    "platform-engineering-org/gitlab-runners",
-    "platform-engineering-org/platform-engineering-org.github.io",
-    "platform-engineering-org/gitlab-configuration",      
     "arcalot/arcaflow-plugin-wait",
     "arcalot/arcaflow-plugin-sdk-python",
     "arcalot/arcaflow-plugin-sdk-go",
@@ -77,8 +70,6 @@ module.exports = {
     "arcalot/go-log",
     "arcalot/arcaflow-plugin-opensearch-legacy",
     "arcalot/actions",
-    "arcalot/go-lang",
-    "crc-org/crc-cloud",
-    "platform-engineering-org/renovate-test"
+    "arcalot/go-lang"
   ]
 };
