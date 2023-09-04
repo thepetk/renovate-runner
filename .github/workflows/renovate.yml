@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.6.0
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v39.0.3
+        uses: renovatebot/github-action@v39.0.5
         with:
-          renovate-version: 36.67.1
+          renovate-version: 36.78.8
           configurationFile: config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
