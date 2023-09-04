@@ -57,7 +57,6 @@ module.exports = {
     "arcalot/arcaflow-plugin-service",
     "arcalot/arcaflow-plugins-incubator",
     "arcalot/arcaflow-plugin-baremetal-ipmi-control",
-    "arcalot/go-lang",
     "arcalot/log.arcalot.io",
     "arcalot/arcaflow-python",
     "crc-org/crc-cloud",
@@ -84,3 +83,4 @@ module.exports = {
 // "arcalot/go-log",
 // "arcalot/arcaflow-plugin-opensearch-legacy",
 // "arcalot/actions",
+// "arcalot/go-lang",
