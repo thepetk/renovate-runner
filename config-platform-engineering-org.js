@@ -14,14 +14,6 @@ module.exports = {
       "password": process.env.DOCKER_HUB_TOKEN
     }
   ],
-  repositories: [
-    "platform-engineering-org/.github",
-    "platform-engineering-org/renovate-runner",
-    "platform-engineering-org/bootstrap",
-    "platform-engineering-org/helper",
-    "platform-engineering-org/gitlab-runners",
-    "platform-engineering-org/platform-engineering-org.github.io",
-    "platform-engineering-org/gitlab-configuration",  
-    "platform-engineering-org/renovate-test"
-  ]
+  autodiscover: true,
+  autodiscoverFilter: ["platform-engineering-org/*"]
 };

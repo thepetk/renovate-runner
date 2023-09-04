@@ -14,6 +14,7 @@ module.exports = {
       "password": process.env.DOCKER_HUB_TOKEN
     }
   ],
+  autodiscover: false,
   repositories: [
     "crc-org/crc-cloud"
   ]
