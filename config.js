@@ -32,7 +32,6 @@ module.exports = {
     "arcalot/arcaflow-plugin-kubeconfig",
     "arcalot/arcaflow-plugin-metadata",
     "arcalot/arcaflow-plugin-minio",
-    "arcalot/arcaflow-workflows",
     "arcalot/arcaflow-plugin-aws-ec2-control",
     "arcalot/arcaflow-plugin-elasticsearch",
     "arcalot/arcaflow-plugin-opensearch",
@@ -46,15 +45,12 @@ module.exports = {
     "arcalot/arcaflow-plugin-pcp",
     "arcalot/arcaflow-plugin-template-python",
     "arcalot/arcaflow-plugin-example",
-    "arcalot/go-assert",
-    "arcalot/arcaflow-editor",
     "arcalot/arcaflow-docsgen",
     "arcalot/arcalot.github.io",
     "arcalot/arcalot-round-table",
     "arcalot/arcaflow-plugin-baseimage-python",
     "arcalot/arcaflow-container-toolkit",
     "arcalot/arcaflow-container-toolkit-action",
-    "arcalot/go.flow.arcalot.io",
     "arcalot/go-dgraph",
     "arcalot/arcalog",
     "arcalot/arcaflow-engine-deployer-kubernetes",
@@ -82,3 +78,9 @@ module.exports = {
     "platform-engineering-org/renovate-test"
   ]
 };
+
+
+// "arcalot/go.flow.arcalot.io",
+// "arcalot/arcaflow-workflows",
+// "arcalot/go-assert",
+// "arcalot/arcaflow-editor",
