@@ -4,7 +4,7 @@ This is a self-hosted Renovate runner.
 
 ## Onboarding your GitHub.com project
 
-* Add the project path to config.js file (via PR)
+* Add your project path (namespace/reponame) to config-other.js file (via PR)
 * Invite the user [platform-engineering-bot][1] to your org or repo with the
   'Write' Role
 
