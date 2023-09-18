@@ -19,6 +19,6 @@ module.exports = {
     "crc-org/crc-cloud"
   ],
   constraints: {
-    go: 1.19
+    go: "1.19"
   }
 };
