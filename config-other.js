@@ -17,5 +17,8 @@ module.exports = {
   autodiscover: false,
   repositories: [
     "crc-org/crc-cloud"
-  ]
+  ],
+  constraints: {
+    go: 1.19
+  }
 };
