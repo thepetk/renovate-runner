@@ -16,7 +16,8 @@ module.exports = {
   ],
   autodiscover: false,
   repositories: [
-    "crc-org/crc-cloud"
+    "crc-org/crc-cloud",
+    "ralphbean/dnf-plugin-lockfile"
   ],
   constraints: {
     go: "1.19"
