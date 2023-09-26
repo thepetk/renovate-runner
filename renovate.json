@@ -3,7 +3,7 @@
   "extends": [
     "github>platform-engineering-org/.github"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
       "customType": "regex",
       "fileMatch": [
