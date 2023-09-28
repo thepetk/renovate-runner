@@ -17,6 +17,7 @@ module.exports = {
   autodiscover: false,
   repositories: [
     "crc-org/crc-cloud",
+    "devfile/registry",
     "ralphbean/dnf-plugin-lockfile"
   ],
   constraints: {
