@@ -15,5 +15,5 @@ module.exports = {
     }
   ],
   autodiscover: true,
-  autodiscoverFilter: ["sagano-org/*"]
+  autodiscoverFilter: ["sagano-org/*", "sagano-org/.github"]
 };
