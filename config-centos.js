@@ -15,5 +15,10 @@ module.exports = {
     }
   ],
   autodiscover: true,
-  autodiscoverFilter: ["centos/centos-boot", "centos/.github"]
+  autodiscoverFilter: [
+    "centos/centos-boot",
+    "centos/.github",
+    "centos/centos-boot-infra",
+    "centos/fedora-tier-1-eln"
+  ]
 };
