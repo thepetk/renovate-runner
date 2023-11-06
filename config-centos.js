@@ -15,5 +15,5 @@ module.exports = {
     }
   ],
   autodiscover: true,
-  autodiscoverFilter: ["centos/sagano", "centos/.github"]
+  autodiscoverFilter: ["centos/centos-boot", "centos/.github"]
 };
