@@ -18,6 +18,7 @@ module.exports = {
   repositories: [
     "crc-org/crc-cloud",
     "devfile/registry",
+    "thepetk/registry",
     "ralphbean/dnf-plugin-lockfile"
   ],
   constraints: {
