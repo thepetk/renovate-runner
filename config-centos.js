@@ -19,6 +19,7 @@ module.exports = {
     "centos/centos-boot",
     "centos/.github",
     "centos/centos-boot-infra",
-    "centos/fedora-tier1-eln"
+    "centos/fedora-tier1-eln",
+    "centos/centos-boot-dev"
   ]
 };
