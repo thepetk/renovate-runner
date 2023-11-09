@@ -14,12 +14,12 @@ module.exports = {
       "password": process.env.DOCKER_HUB_TOKEN
     }
   ],
-  autodiscover: true,
-  autodiscoverFilter: [
-    "centos/centos-boot",
+  repositories: [
     "centos/.github",
+    "centos/centos-boot",
     "centos/centos-boot-infra",
     "centos/fedora-tier1-eln",
-    "centos/centos-boot-dev"
+    "centos/centos-boot-dev",
+    "centos/centos-boot-layered"
   ]
 };
