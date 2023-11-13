@@ -12,8 +12,8 @@
       "matchStrings": [
         "\\s*renovate-version:\\s*(?<currentValue>[a-z0-9.-]+)"
       ],
-      "depNameTemplate": "renovate",
-      "datasourceTemplate": "npm"
+      "depNameTemplate": "ghcr.io/renovatebot/renovate",
+      "datasourceTemplate": "docker"
     }
   ]
 }
