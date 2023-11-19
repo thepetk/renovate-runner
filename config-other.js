@@ -19,7 +19,8 @@ module.exports = {
     "crc-org/crc-cloud",
     "devfile/registry",
     "thepetk/registry",
-    "ralphbean/dnf-plugin-lockfile"
+    "ralphbean/dnf-plugin-lockfile",
+    "opdev/fips-assessments"
   ],
   constraints: {
     go: "1.19"
