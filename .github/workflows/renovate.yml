@@ -15,7 +15,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b6a3618bbc9a5d1faf05b4178eb3f4c351e07b41 # v39.1.2
         with:
-          renovate-version: 37.56.3
+          renovate-version: 37.61.4
           configurationFile: config-platform-engineering-org.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -34,7 +34,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b6a3618bbc9a5d1faf05b4178eb3f4c351e07b41 # v39.1.2
         with:
-          renovate-version: 37.56.3
+          renovate-version: 37.61.4
           configurationFile: config-arcalot.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -52,7 +52,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b6a3618bbc9a5d1faf05b4178eb3f4c351e07b41 # v39.1.2
         with:
-          renovate-version: 37.56.3
+          renovate-version: 37.61.4
           configurationFile: config-centos.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
@@ -70,7 +70,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@b6a3618bbc9a5d1faf05b4178eb3f4c351e07b41 # v39.1.2
         with:
-          renovate-version: 37.56.3
+          renovate-version: 37.61.4
           configurationFile: config-other.js
           token: ${{ secrets.RENOVATE_TOKEN }}
           env-regex: "^(?:RENOVATE_\\w+|DOCKER_HUB_USERNAME|DOCKER_HUB_TOKEN|LOG_LEVEL)$"
