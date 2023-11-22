@@ -7,6 +7,7 @@ module.exports = {
     ]
   },
   gitPrivateKey: process.env.GPG_KEY,
+  platformCommit: true,
   hostRules: [
     {
       "hostType": "docker",
