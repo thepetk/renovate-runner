@@ -6,7 +6,7 @@ module.exports = {
       "github>platform-engineering-org/.github"
     ]
   },
-  platformCommit: true,
+  gitPrivateKey: process.env.GPG_KEY,
   hostRules: [
     {
       "hostType": "docker",
