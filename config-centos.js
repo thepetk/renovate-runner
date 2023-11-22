@@ -3,9 +3,10 @@ module.exports = {
   onboardingConfig: {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-      "local>sagano-org/.github"
+      "local>centos/.github"
     ]
   },
+  gitPrivateKey: process.env.GPG_KEY,
   hostRules: [
     {
       "hostType": "docker",
