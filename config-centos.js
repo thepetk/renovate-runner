@@ -6,7 +6,7 @@ module.exports = {
       "local>centos/.github"
     ]
   },
-  gitPrivateKey: process.env.GPG_KEY,
+  platformCommit: true,
   hostRules: [
     {
       "hostType": "docker",
