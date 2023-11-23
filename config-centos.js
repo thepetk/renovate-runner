@@ -17,10 +17,9 @@ module.exports = {
   ],
   repositories: [
     "centos/.github",
-    "centos/centos-boot",
-    "centos/centos-boot-infra",
-    "centos/fedora-tier1-eln",
-    "centos/centos-boot-dev",
-    "centos/centos-boot-layered"
+    "centos/centos-bootc",
+    "centos/centos-bootc-infra",
+    "centos/centos-bootc-dev",
+    "centos/centos-bootc-layered"
   ]
 };
