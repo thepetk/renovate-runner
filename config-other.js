@@ -1,8 +1,5 @@
 module.exports = {
   platform: "github",
-  "extends": [
-    "github>platform-engineering-org/.github"
-  ],
   onboardingConfig: {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
