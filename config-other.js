@@ -20,7 +20,8 @@ module.exports = {
     "devfile/registry",
     "thepetk/registry",
     "ralphbean/dnf-plugin-lockfile",
-    "kubevirt/hyperconverged-cluster-operator"
+    "kubevirt/hyperconverged-cluster-operator",
+    "lmilbaum/hyperconverged-cluster-operator"
   ],
   constraints: {
     go: "1.19"
